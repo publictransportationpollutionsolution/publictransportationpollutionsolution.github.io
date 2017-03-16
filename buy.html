@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Buy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="styleshee  aq               t">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/logo.png">
+</head>
+</head>
+
+<body style="font-family: 'Quicksand', sans-serif;">
+    <nav>
+        <div class="nav-wrapper light-blue darken-1">
+            <a href="index.html" class="brand-logo" style="margin-left: 20px;">Public Trans Solution</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="buy.html">Buy</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+            <ul class="side-nav left" id="mobile-demo">
+                <li><a href="buy.html">Buy</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="parallax-container">
+        <div class="parallax"><img src="images/train.jpg"></div>
+    </div>
+    <div class="container">
+        <h3 class="center-align">Train - <a href="http://www.caltrain.com/Fares/howtobuy.html">here</a></h3>
+        <h3 class="center-align">Bus - <a href="http://www.samtrans.com/fares/howtobuy.html">here</a></h3>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".button-collapse").sideNav();
+            $('.parallax').parallax();
+        });
+    </script>
+</body>
+
+</html>
